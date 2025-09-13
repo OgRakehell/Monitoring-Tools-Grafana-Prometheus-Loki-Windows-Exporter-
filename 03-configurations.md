@@ -96,6 +96,6 @@ Check that each component of your monitoring stack is running correctly:
 - Access Grafana dashboard: [http://localhost:3000](http://localhost:3000)  
 - Expected: Log in and confirm that data sources (Prometheus, Loki) are available.  
 
-![Grafana Dashboard](assets/Grafana_dashbaord.png)
+![Grafana Dashboard](assets/Grafana_dashboard.png)
 
 
