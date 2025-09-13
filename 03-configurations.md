@@ -78,7 +78,7 @@ Check that each component of your monitoring stack is running correctly:
 - Access your scrape targets: [http://localhost:9090/targets](http://localhost:9090/targets)  
 - Expected: Your Windows Exporter (or other targets) should appear as `UP`.  
 
-![Prometheus Targets](assets/prometheus.png)
+![Prometheus Targets](assets/Prometheus.png)
 
 ---
 
@@ -88,7 +88,7 @@ Check that each component of your monitoring stack is running correctly:
 
 > Note: The Loki metrics page (`http://localhost:3100/metrics`) is mostly raw text and will appear empty or confusing; for verification purposes, it’s better to use the Windows Exporter page.
 
-![Windows Exporter Metrics](assets/windowsexporter.png)
+![Windows Exporter Metrics](assets/Windowsexporter.png)
 
 ---
 
@@ -96,6 +96,6 @@ Check that each component of your monitoring stack is running correctly:
 - Access Grafana dashboard: [http://localhost:3000](http://localhost:3000)  
 - Expected: Log in and confirm that data sources (Prometheus, Loki) are available.  
 
-![Grafana Dashboard](assets/grafana_dashbaord.png)
+![Grafana Dashboard](assets/Grafana_dashbaord.png)
 
 
