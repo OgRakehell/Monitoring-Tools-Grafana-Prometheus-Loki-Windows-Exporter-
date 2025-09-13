@@ -69,3 +69,31 @@ clients:
 2. Go to **Home > Connections > Data Sources**  
 3. Add **Prometheus** and **Loki**
 
+---
+## Verification
+
+Check that each component of your monitoring stack is running correctly:
+
+### Prometheus
+- Access your scrape targets: [http://localhost:9090/targets](http://localhost:9090/targets)  
+- Expected: Your Windows Exporter (or other targets) should appear as `UP`.  
+
+![Prometheus Targets](assets/prometheus.png)
+
+---
+
+### Loki
+- Access Loki metrics: [http://localhost:3100/metrics](http://localhost:3100/metrics)  
+- Expected: Metrics should be displayed, confirming Loki is running.  
+
+![Loki Metrics](assets/loki-metrics.png)
+
+---
+
+### Grafana
+- Access Grafana dashboard: [http://localhost:3000](http://localhost:3000)  
+- Expected: Log in and confirm that data sources (Prometheus, Loki) are available.  
+
+![Grafana Dashboard](assets/grafana.png)
+
+
