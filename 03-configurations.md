@@ -82,11 +82,13 @@ Check that each component of your monitoring stack is running correctly:
 
 ---
 
-### Loki
-- Access Loki metrics: [http://localhost:3100/metrics](http://localhost:3100/metrics)  
-- Expected: Metrics should be displayed, confirming Loki is running.  
+### Windows Exporter
+- Access Windows Exporter metrics: [http://localhost:9182/metrics](http://localhost:9182/metrics)  
+- Expected: Metrics like CPU, memory, and disk usage should be displayed, confirming the exporter is running and Prometheus can scrape it.  
 
-![Loki Metrics](assets/loki-metrics.png)
+> Note: The Loki metrics page (`http://localhost:3100/metrics`) is mostly raw text and will appear empty or confusing; for verification purposes, it’s better to use the Windows Exporter page.
+
+![Windows Exporter Metrics](assets/windowsexporter.png)
 
 ---
 
@@ -94,6 +96,6 @@ Check that each component of your monitoring stack is running correctly:
 - Access Grafana dashboard: [http://localhost:3000](http://localhost:3000)  
 - Expected: Log in and confirm that data sources (Prometheus, Loki) are available.  
 
-![Grafana Dashboard](assets/grafana.png)
+![Grafana Dashboard](assets/grafana_dashbaord.png)
 
 
