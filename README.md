@@ -12,22 +12,28 @@ No sensitive company data or configurations are included. The steps, however, re
 ---
 
 ## 📖 What You Will Find Here
-This project walks through the end-to-end process of setting up the stack:
+This project walks through the end-to-end process of setting up and running a monitoring stack:
 
-1. [Introduction](01-introduction.md)  
-   Why monitoring matters and what role each tool plays.  
+1. [Introduction](docs/01-introduction.md)  
+   Why monitoring matters, plus a high-level overview of the stack.  
 
-2. [Installation](02-installation.md)  
+2. [Setup](docs/02-setup.md)  
    Steps to install Grafana, Prometheus, Loki, Promtail, and Windows Exporter.  
 
-3. [Configurations](03-configurations.md) 
-   Example YAML files for Prometheus, Loki, and Promtail with annotations.  
+3. [Configuration](docs/03-configuration.md)  
+   Example YAML files for Prometheus, Loki, and Promtail with explanations.  
 
-4. [Visualization](04-visualization.md)  
-   Building dashboards in Grafana, showing both metrics (CPU, memory) and logs.  
+4. [Visualization](docs/04-visualization.md)  
+   Building dashboards in Grafana to display system metrics (CPU, memory) and application logs.  
 
-5. [Automation & Tips](05-automation.md)  
-   Batch scripts, troubleshooting advice, and workflow improvements.  
+5. [Automation](docs/05-automation.md)  
+   Batch and PowerShell scripts to start/stop the stack, plus notes on common issues.  
+
+6. [Use Cases](docs/06-use_cases.md)  
+   Real-world scenarios where the stack helps in monitoring and troubleshooting applications.  
+
+7. [Lessons Learned](docs/07-lessons_learned.md)  
+   Challenges faced during setup and the fixes applied.  
 
 ---
 
@@ -38,6 +44,4 @@ This project walks through the end-to-end process of setting up the stack:
 - **Promtail**: Agent that ships logs to Loki.  
 - **Windows Exporter**: Exposes Windows system metrics to Prometheus.  
 
----
 
-## 📂 Repository Structure
