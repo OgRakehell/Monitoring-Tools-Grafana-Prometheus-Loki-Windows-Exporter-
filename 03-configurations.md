@@ -94,7 +94,6 @@ Check that each component of your monitoring stack is running correctly:
 ![Windows Exporter Metrics](assets/Windowsexporter.png)
 
 ---
-
 ### Grafana
 - Access Grafana dashboard: [http://localhost:3000](http://localhost:3000)  
 - Expected: Log in and confirm that data sources (Prometheus, Loki) are available.  
