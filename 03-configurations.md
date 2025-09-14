@@ -10,7 +10,7 @@ This section walks through the essential configuration steps.
 - **Prometheus** → `prometheus.yml`  
 - **Loki** → `loki-config.yaml`  
 - **Promtail** → `promtail-config.yaml`  
-- **Grafana** → `grafana.ini`  
+- **Grafana** → `defaults.ini`  
 
 ---
 
@@ -58,16 +58,19 @@ clients:
 ```
 ---
 ## Grafana Configuration
-### File: `grafana.ini`
+### File: `defaults.ini`
 
 - Change admin credentials.  
 - Configure data sources (Loki, Prometheus).
-
+ 
 ### Steps:
 
 1. Log into Grafana at [http://localhost:3000](http://localhost:3000)  
 2. Go to **Home > Connections > Data Sources**  
 3. Add **Prometheus** and **Loki**
+
+ ![Grafana Datasource](assets/Datasources.png)
+
 
 ---
 ## Verification
