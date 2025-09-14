@@ -40,6 +40,10 @@ This is where raw data becomes insight — where numbers and logs transform into
 4. You can filter by log level (`ERROR`, `INFO`) or keyword to find specific events.  
 5. Add panels to your dashboard showing recent errors or warnings.
 
+> Note: Sample of 30 logs parsed through Loki
+
+![Windows Exporter Metrics](assets/Loki_Logs.png)
+
 ---
 
 ## Step 5: Organize Your Dashboard
