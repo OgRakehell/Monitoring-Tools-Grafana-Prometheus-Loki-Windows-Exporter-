@@ -20,7 +20,7 @@ This project walks through the end-to-end process of setting up the stack:
 2. [Installation](02-installation.md)  
    Steps to install Grafana, Prometheus, Loki, Promtail, and Windows Exporter.  
 
-3. [Configuration](03-configuration.md) 
+3. [Configurations](03-configurations.md) 
    Example YAML files for Prometheus, Loki, and Promtail with annotations.  
 
 4. [Visualization](04-visualization.md)  
