@@ -29,10 +29,10 @@ This project walks through the end-to-end process of setting up the stack:
 5. [Automation & Tips](05-automation.md)  
    Batch scripts, troubleshooting advice, and workflow improvements. 
 
-6. [Use Cases](docs/06-Use_Cases.md)  
+6. [Use Cases](06-use_cases.md)  
    Real-world scenarios where the stack helps in monitoring and troubleshooting applications.  
 
-7. [Lessons Learned](docs/07-Lessons_Learned.md)  
+7. [Lessons Learned](07-lessons_learned.md)  
    Challenges faced during setup and the fixes applied.  
 
 ---
